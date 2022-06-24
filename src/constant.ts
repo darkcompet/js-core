@@ -1,4 +1,6 @@
 
-export const SPACE = ' ';
-export const LINE_FEED = '\n';
-export const EMPTY_STRING = "";
+export class DkConst {
+	SPACE = ' ';
+	LINE_FEED = '\n';
+	EMPTY_STRING = "";
+}
