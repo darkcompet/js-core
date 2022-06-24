@@ -1,6 +1,6 @@
 
 export class DkConst {
-	SPACE = ' ';
-	LINE_FEED = '\n';
-	EMPTY_STRING = "";
+	static readonly SPACE = ' ';
+	static readonly LINE_FEED = '\n';
+	static readonly EMPTY_STRING = "";
 }
