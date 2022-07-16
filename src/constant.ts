@@ -1,6 +1,9 @@
 
-export class DkConst {
-	static readonly SPACE = ' ';
-	static readonly LINE_FEED = '\n';
-	static readonly EMPTY_STRING = "";
+class _Const {
+	/// In string (NOT char)
+	readonly SPACE = " ";
+	readonly LINE_FEED = "\n";
+	readonly EMPTY_STRING = "";
 }
+
+export const DkConst = new _Const();
